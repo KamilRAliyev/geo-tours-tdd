@@ -42,3 +42,5 @@ Step 1:
 2. Test Failed
     ![No TourOrder](/img/cycle3_model_red.png)
 3. Code Added
+4. Test Passed
+    ![Green View](/img/cycle3_model_green.png)
