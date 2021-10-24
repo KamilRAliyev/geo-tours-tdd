@@ -33,3 +33,11 @@ Step 1:
     ![Green View](/img/cycle2_view_green.png)
 
 ---
+# Cycle 3
+## Requirements: `Customer should order selected tour.`
+
+Step 1:
+---
+1. Created test for TourOrder model creationg
+2. Test Failed
+    ![No TourOrder](/img/cycle3_model_red.png)
