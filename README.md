@@ -16,3 +16,5 @@ Step 2.
 2. Test Failed
     ![No View](/img/cycle1_view_red.png)
 3. Code Added
+4. Test Passed
+    ![Green View](/img/cycle1_view_green.png)
