@@ -51,3 +51,5 @@ Step 3:
 2. Test Failed
     ![Red view](/img/cycle3_view_red.png)
 3. Code Added
+4. Test Passed
+    ![Green View](/img/cycle3_model_green.png)
