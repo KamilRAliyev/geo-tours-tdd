@@ -19,5 +19,6 @@ import tours.views as tours
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tours/<int:pk>', tours.tour_details)
+    path('tours/<int:pk>', tours.tour_details),
+    path('tours/', tours.tours)
 ]
