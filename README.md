@@ -15,3 +15,4 @@ Step 2.
 1. Created test for tour view
 2. Test Failed
     ![No View](/img/cycle1_view_red.png)
+3. Code Added
