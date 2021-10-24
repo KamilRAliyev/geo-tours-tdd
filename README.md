@@ -41,3 +41,4 @@ Step 1:
 1. Created test for TourOrder model creationg
 2. Test Failed
     ![No TourOrder](/img/cycle3_model_red.png)
+3. Code Added

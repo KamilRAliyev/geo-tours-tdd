@@ -1,4 +1,5 @@
 from django.db import models
+from django.db.models.base import Model
 
 # Create your models here.
 class Tour(models.Model):
@@ -13,3 +14,12 @@ class Tour(models.Model):
     class Meta:
         verbose_name = 'Tour'
         verbose_name_plural = 'Tours'
+
+class TourOrder(models.Model):
+    full_name = models.CharField(max_length=100, blank=False, null=False)
+    tour = models.ForeignKey(Tour, on_delete=models.CASCADE, related_name='Tours')
+    comment = models.CharField(max_length=300, blank=True, null=True)
+
+    class Meta:
+        verbose_name = 'Tour Order'
+        verbose_name_plural = 'Tour Orders'
