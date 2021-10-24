@@ -1,5 +1,5 @@
-Customer should see all available tours from newly created to old. 
+1. Customer should see tour details. 
+
+2. Customer should see all available tours from newly created to old.  
  
-Customer should see tour details. 
- 
-Customer should order selected tour.
+3. Customer should order selected tour.
