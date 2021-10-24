@@ -36,6 +36,7 @@ class TestTourOrder(TestCase):
         })
         
         
-        self.assertEqual(models.TourOrder.objects.get(tour=tour).tour, tour)
+        self.assertEqual(models.TourOrder.objects.all().first().full_name, "Persona1")
+        self.assertEqual(models.TourOrder.objects.all().first().tour, tour)
         self.assertEqual(response.status_code, HTTPStatus.FOUND)
 

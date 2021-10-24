@@ -50,3 +50,4 @@ Step 3:
 1. Created test for Ordering Tour
 2. Test Failed
     ![Red view](/img/cycle3_view_red.png)
+3. Code Added
