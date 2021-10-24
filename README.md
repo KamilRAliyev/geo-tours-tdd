@@ -10,3 +10,8 @@ Step 1.
 4. Test Passed 
     ![Green Tour](/img/cycle1_model_green.png)
 
+Step 2.
+---
+1. Created test for tour view
+2. Test Failed
+    ![No View](/img/cycle1_view_red.png)
