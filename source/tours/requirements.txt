@@ -1,0 +1,5 @@
+Customer should see all available tours from newly created to old. 
+ 
+Customer should see tour details. 
+ 
+Customer should order selected tour.
