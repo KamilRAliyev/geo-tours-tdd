@@ -1,3 +1,4 @@
+from django.http.response import HttpResponse
 from django.test import TestCase
 from tours import models
 from mixer.backend.django import mixer
@@ -25,3 +26,16 @@ class TestTourList(TestCase):
         response = self.client.get(f'/tours/')
         self.assertEqual(response.status_code, HTTPStatus.OK)
         self.assertEqual(force_text(response.content), data )
+
+class TestTourOrder(TestCase):
+    def test_ordering_tour(self):
+        tour = mixer.blend(models.Tour, name='test2')
+        response = self.client.post(f"/tours/{tour.pk}/order", data={
+           'full_name':"Persona1",
+           'comment': "My mail: kamil@gmail.com" 
+        })
+        
+        
+        self.assertEqual(models.TourOrder.objects.get(tour=tour).tour, tour)
+        self.assertEqual(response.status_code, HTTPStatus.FOUND)
+

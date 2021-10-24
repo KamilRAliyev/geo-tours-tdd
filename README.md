@@ -44,3 +44,9 @@ Step 1:
 3. Code Added
 4. Test Passed
     ![Green View](/img/cycle3_model_green.png)
+
+Step 3:
+---
+1. Created test for Ordering Tour
+2. Test Failed
+    ![Red view](/img/cycle3_view_red.png)
