@@ -28,3 +28,8 @@ Step 1:
 1. Created test for tour list view.
 2. Test Failed
     ![No View](/img/cycle2_view_red.png)
+3. Code Added
+4. Test Passed
+    ![Green View](/img/cycle2_view_green.png)
+
+---
